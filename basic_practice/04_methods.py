@@ -4,4 +4,3 @@ def number(n):
     else:
         return print("You are not eligible to drive")
 number(5)
-print("Result",number)
