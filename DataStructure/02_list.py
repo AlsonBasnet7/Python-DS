@@ -1,0 +1,9 @@
+my_list=[1,2,3]
+print(type(my_list))
+my_list.append(4)
+my_list.insert(3,69)
+my_list.remove(2)
+my_list.pop()
+my_list.reverse()
+my_list.sort()
+print(my_list.reverse())
