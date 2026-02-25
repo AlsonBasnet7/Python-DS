@@ -1,0 +1,10 @@
+coordinates=(10,20)
+print(coordinates)
+temp=list(coordinates)
+temp.insert(0,50)
+coordinates=tuple(temp) 
+print(coordinates)
+temp=list(coordinates)
+temp[0]=99
+coordinates=tuple(temp)
+print(coordinates)
